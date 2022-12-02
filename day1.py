@@ -16,7 +16,7 @@ def biggest_group_sum(groups):
 # Second question
 def biggest_3_group_sum(groups):
     summed_groups = [sum(group) for group in groups]
-    sorted_summed_groups = sorted(summed_groups, reverse=True)
+    sorted_summed_groups = sorted(summed_groups, reverse=True)  # OK for this input size but heapq would be more optimized.
     return sum(sorted_summed_groups[:3])
 
 
