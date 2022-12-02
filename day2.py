@@ -15,8 +15,6 @@ SCORE_2 = {  # Round 2. Still only 9 combinations.
 
 
 def read_input(filename):
-    rounds_letters = []
-
     input_path = os.path.join(os.path.dirname(__file__), filename)
     with open(input_path, 'r') as f:
         return f.read().splitlines()
