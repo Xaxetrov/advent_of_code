@@ -1,5 +1,5 @@
-from enum import Enum
 import os
+
 
 SCORE_1 = {  # Round 1. Only 9 combinations.
     "A X": 4, "A Y": 8, "A Z": 3,
