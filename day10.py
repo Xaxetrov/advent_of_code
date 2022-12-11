@@ -1,7 +1,7 @@
 import os
 
 
-def read_input(filename: str) ->  'list[tuple[str]]':
+def read_input(filename: str) ->  'list[tuple]':
     instructions = []
     
     input_path = os.path.join(os.path.dirname(__file__), filename)
